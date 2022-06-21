@@ -1,38 +1,20 @@
-window.onload = function() {
 
-    var txt = document.getElementById('text');
+    window.onload = function() {
+    let p=document.getElementById('text');
     
-    txt.innerHTML = 10;
-    setTimeout(function() {
-        txt.innerHTML = 9;
-        setTimeout(function() {
-            txt.innerHTML = 8;
-            setTimeout(function() {
-                txt.innerHTML = 7;
-                setTimeout(function() {
-                    txt.innerHTML = 6;
-                    setTimeout(function() {
-                        txt.innerHTML = 5;
-                        setTimeout(function() {
-                            txt.innerHTML = 4;
-                            setTimeout(function() {
-                                txt.innerHTML = 3;
-                                setTimeout(function() {
-                                    txt.innerHTML = 2;
-                                    setTimeout(function() {
-                                        txt.innerHTML = 1;
-                                        setTimeout(function() {
-                                            txt.innerHTML = 'Happy Independnce Day';
-                                            
-                                        }, 1000)
-                                    }, 1000)
-                                }, 1000)
-                            }, 1000)
-                        }, 1000)
-                    }, 1000)
-                }, 1000)
-            }, 1000)
-        }, 1000)
-    }, 1000)
+    setTimeout(()=>{p.innerHTML="10"},1000);
+    setTimeout(()=>{p.innerHTML="9"},2000);
+    setTimeout(()=>{p.innerHTML="8"},3000);
+    setTimeout(()=>{p.innerHTML="7"},4000);
+    setTimeout(()=>{p.innerHTML="6"},5000);
+    setTimeout(()=>{p.innerHTML="5"},6000);
+    setTimeout(()=>{p.innerHTML="4"},7000);
+    setTimeout(()=>{p.innerHTML="3"},8000);
+    setTimeout(()=>{p.innerHTML="2"},9000);
+    setTimeout(()=>{p.innerHTML="1"},10000);
+    setTimeout(()=>{p.innerHTML="HAPPY INDEPENDENCE DAY!!"},11000);
+    
 
-}
+
+
+    }
